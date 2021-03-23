@@ -7,12 +7,12 @@ let playerChoice = 0
 function random () {
   playerChoice = document.getElementById('num-input').value
   playerChoice = parseInt(playerChoice)
-// This will get a random number between 1 and 6.
+  //  This will get a random number between 1 and 6.
 
-randomNum = Math.floor(Math.random()* 6) +1
-// This will look to see if the numbers equal the same which will play an alert.
+  randomNum = Math.floor(Math.random() * 6) + 1
+  //  This will look to see if the numbers equal the same which will play an alert.
 
-if (randomNum == playerChoice) {
-  alert('You Win!!!')
+  if (randomNum === playerChoice) {
+    alert('You Win!!!')
 }
 }
