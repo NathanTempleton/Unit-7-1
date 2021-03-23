@@ -14,5 +14,5 @@ function random () {
 
   if (randomNum === playerChoice) {
     alert('You Win!!!')
-}
+  }
 }
